@@ -6,6 +6,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 <!-- REPLACE -->
 <!-- [TITLE] -->
+<!-- [FOLDER] -->
 <!-- [GITHUB REPO] -->
 
 <!-- PROJECT LOGO -->
@@ -54,15 +55,14 @@ You have python 3 installed.
 In a terminal do following
 
 ```console
-mkdir [TITLE]
-curl -L https://api.github.com/repos/[GITHUB REPO]/tarball | tar -xz --strip-components=3 -C [TITLE]
+mkdir [FOLDER]
+curl -L https://api.github.com/repos/[GITHUB REPO]/tarball | tar -xz --strip-components=3 -C [FOLDER]
 ```
 
-For play the game go to the folder [TITLE] and run game.
-It saves high scores and player name.
+For run the application go to the folder [FOLDER] and run.
 
 ```commandline
-cd [TITLE]
+cd [FOLDER]
 python main.py
 ```
 
