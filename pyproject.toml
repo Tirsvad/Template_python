@@ -1,0 +1,12 @@
+[project]
+name = '[TITLE]'
+version = "0.0.1"
+
+[tool.coverage.run]
+omit = [
+    "srv/**",
+    "tests/*.py",
+]
+
+[tool.coverage.html]
+directory = "docs"
