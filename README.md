@@ -4,6 +4,9 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+<a href='https://coveralls.io/github/TirsvadCLI/Python.QuizEngine4Trivia'>
+<img src='https://coveralls.io/repos/github/[GITHUB REPO]/badge.svg' alt='Coverage Status' height="28"/>
+</a>
 <!-- REPLACE -->
 <!-- [TITLE] -->
 <!-- [FOLDER] -->
@@ -96,25 +99,19 @@ git push origin feature
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/[GITHUB REPO]?style=for-the-badge
-
 [contributors-url]: https://github.com/[GITHUB REPO]/graphs/contributors
 
 [forks-shield]: https://img.shields.io/github/forks/[GITHUB REPO]?style=for-the-badge
-
 [forks-url]: https://github.com/[GITHUB REPO]/network/members
 
 [stars-shield]: https://img.shields.io/github/stars/[GITHUB REPO]?style=for-the-badge
-
 [stars-url]: https://github.com/[GITHUB REPO]/stargazers
 
 [issues-shield]: https://img.shields.io/github/issues/[GITHUB REPO]?style=for-the-badge
-
 [issues-url]: https://github.com/[GITHUB REPO]/issues
 
 [license-shield]: https://img.shields.io/github/license/[GITHUB REPO]?style=for-the-badge
-
 [license-url]: https://github.com/[GITHUB REPO]/blob/master/LICENSE
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-
 [linkedin-url]: https://www.linkedin.com/in/jens-tirsvad-nielsen-13b795b9/
