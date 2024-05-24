@@ -4,7 +4,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-<a href='https://coveralls.io/github/TirsvadCLI/Python.QuizEngine4Trivia'>
+<a href='https://coveralls.io/github/[GITHUB REPO]'>
 <img src='https://coveralls.io/repos/github/[GITHUB REPO]/badge.svg' alt='Coverage Status' height="28"/>
 </a>
 <!-- REPLACE -->
