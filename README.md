@@ -53,20 +53,32 @@ running follow these simple example steps.
 
 You have python 3 installed.
 
-## Installation
+## Download and run
 
-In a terminal do following
+To download source code from git hub we can oen a terminal.
 
-```console
+### Winodws
+
+```powershell
+New-Item -Path ($(Get-Location  | Select-Object -ExpandProperty Path) -Name "[FOLDER]" -ItemType "directory"
+Invoke-WebRequest https://github.com/[GITHUB REPO]/archive/refs/heads/main.zip -OutFile [FOLDER].zip
+Expand-Archive -Path Draftv2.zip -DestinationPath .\[FOLDER]
+Get-Item "*[FOLDER]-*" | Rename-Item -NewName "[FOLDER]"
+Set-Location .\[FOLDER]\srv\[FOLDER]
+```
+
+### Linux
+
+```bash
 mkdir [FOLDER]
 curl -L https://api.github.com/repos/[GITHUB REPO]/tarball | tar -xz --strip-components=3 -C [FOLDER]
 ```
 
 For run the application go to the folder [FOLDER] and run.
 
-```commandline
+```bash
 cd [FOLDER]
-python main.py
+python3 main.py
 ```
 
 ## Contributing
@@ -89,7 +101,7 @@ Fork the Project
 
 Example
 
-```commandline
+```bash
 git checkout -b feature
 git commit -m 'Add my feature enhance to project'
 git push origin feature
